@@ -6,7 +6,7 @@ from matplotlib import animation
 import pickle
 
 
-def test(n_episodes=500, name='LunarLander_0.02_0.9_0.999_new_210.pth'):
+def test(n_episodes=500, name='LunarLander_0.02_0.9_0.999.pth'):
     count = 0
     render = False
     env = gym.make('LunarLander-v2',render_mode='rgb_array')

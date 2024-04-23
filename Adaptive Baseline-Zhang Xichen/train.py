@@ -2,7 +2,7 @@ from test import test
 from model import ActorCritic
 import torch
 import torch.optim as optim
-import gymnasium as gym
+import gym
 import pickle
 import numpy as np
 def moving_average(total_rewards):
@@ -34,7 +34,6 @@ def train():
     torch.manual_seed(random_seed)
     
     env = gym.make('LunarLander-v2')
-    env.action_space.seed(random_seed)
     
     policy = ActorCritic()
     optimizer = optim.Adam(policy.parameters(), lr=lr, betas=betas)
@@ -45,8 +44,8 @@ def train():
     final_rewards = []
     average_rewards = []
     for i_episode in range(0, 10000):
-        # state,_ = env.reset(seed=random_seed)
-        state,_ = env.reset()
+        state,_ = env.reset(seed=random_seed)
+        # state,_ = env.reset()
         total_reward = 0
         for t in range(1000):
             action = policy(state)
