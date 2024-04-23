@@ -1,6 +1,6 @@
 from model import ActorCritic
 import torch
-import gymnasium as gym
+import gym
 import matplotlib.pyplot as plt
 from matplotlib import animation
 import pickle
