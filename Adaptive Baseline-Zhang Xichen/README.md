@@ -7,9 +7,14 @@ We have provided two pre-trained models along with their training and testing da
 | LunarLander_fix_random | [./data/train_process/fix_random_train_data.pkl](./data/train_process/fix_random_train_data.pkl) | Average above 200 | [./data/test_process/fix_random_test_data.pkl](./data/test_process/fix_random_test_data.pkl) | 87% |
 | LunarLander_best_luck_draw | [./data/train_process/luck_draw_train_data.pkl](./data/train_process/luck_draw_train_data.pkl) | Average above 200 | [./data/test_process/luck_draw_test_data.pkl](./data/test_process/luck_draw_test_data.pkl) | 92% |
 
+If you test on linux system, you can guarantee to get the exact result as LunarLander_fix_random but if you test on other operating systems, the result may vary. The result of LunarLander_best_luck_draw is the best model we have trained so far.
+![LunarLander_fix_random](./demo_img/fix.png)
+
+![LunarLander_best_luck_draw](./demo_img/luck.png)
 
 ## How to Train the Model
 Make sure your directory is Adaptive Baseline-Zhang Xichen
+
 
 1. create a conda environment and activate it
 
@@ -31,7 +36,7 @@ pip install -r requirements.txt
 python train.py
 ```
 
-the model will be saved in the model directory ./Pretrained_model
+the model will be saved in the model directory ./Pretrained_model model name should be lunarlander_0.02_0.9_0.999.pth
 
 the data will be saved in the data directory ./data
 
@@ -48,3 +53,5 @@ python test.py
 remember to change the model path in the test.py file
 
 5. how to plot the result (plot.ipynb)
+
+run all and if you finish train of the model, you can plot the result of the model

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib import animation
 import pickle
 
-
+## if u want to test the model, you can choose one in our Pretrained_model and rename here
 def test(n_episodes=500, name='LunarLander_0.02_0.9_0.999.pth'):
     count = 0
     render = False
