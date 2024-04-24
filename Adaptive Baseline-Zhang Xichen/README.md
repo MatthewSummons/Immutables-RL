@@ -24,8 +24,11 @@ python train.py
 ```
 
 the model will be saved in the model directory ./Pretrained_model
+
 the data will be saved in the data directory ./data
+
 train data is in the data directory ./data/train_process
+
 test data is in the data directory ./data/test_process
 
 4. how to test the model
