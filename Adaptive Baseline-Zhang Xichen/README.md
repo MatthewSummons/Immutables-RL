@@ -23,7 +23,7 @@ conda create -n pg python=3.10.12
 conda activate pg
 ```
 
-2. install the required packages, swig is required for gym[box2d]. The following will install it if using __MacOS__, for other operating systems please install swig through other means.
+2. install the required packages, swig is required for gym[box2d]. The following will install it if using __MacOS__, for Linux there is no need for installing swig, just pip install.
 
 ```shell
 brew install swig
@@ -54,4 +54,4 @@ remember to change the model path in the test.py file
 
 5. how to plot the result (plot.ipynb)
 
-run all and if you finish train of the model, you can plot the result of the model
+Install the jupyter notebook first then run plot.ipynb and if you finish training of the model. Then you can plot the result of the model.
