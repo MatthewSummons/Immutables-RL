@@ -23,7 +23,7 @@ conda create -n pg python=3.10.12
 conda activate pg
 ```
 
-2. install the required packages, swig is required for gym[box2d]. The following will install it if using MacOS, for other operating systems please install swig through other means.
+2. install the required packages, swig is required for gym[box2d]. The following will install it if using __MacOS__, for other operating systems please install swig through other means.
 
 ```shell
 brew install swig
