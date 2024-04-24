@@ -1,0 +1,27 @@
+
+# Ignore data files
+*.csv
+*.txt
+
+# Ignore model files
+*.h5
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore checkpoints
+checkpoint/
+
+# Ignore virtual environment
+venv/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
