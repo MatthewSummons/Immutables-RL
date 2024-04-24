@@ -6,9 +6,7 @@ This is the repo of the COMP3340 group project (group 5) in HKU (2023-2024 sem2)
 
 
 ## Source Code
-In our implementation, the versions of the environment and the packages used may vary with teammates. Thus, we seperate the codes in four folders with name format ``[Method]-[Teammate's name]``, and include the README file in each folder. 
-
-You may start from creating a new conda environment for each folder.
+In our implementation, the versions of the environment and the packages used may vary with teammates. Thus, we seperate the codes in four folders with name format ``[Method]-[Teammate's name]``, and include the README file in each folder. The environment configuration, training, testing and generation of the results and demos are all done independently for each folder.
 
 Be careful about the work directory and file path when you run the code!
 
