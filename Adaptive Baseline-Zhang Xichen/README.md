@@ -7,6 +7,7 @@ We have provided two pre-trained models along with their training and testing da
 | LunarLander_fix_random | [./data/train_process/fix_random_train_data.pkl](./data/train_process/fix_random_train_data.pkl) | Average above 200 | [./data/test_process/fix_random_test_data.pkl](./data/test_process/fix_random_test_data.pkl) | 87% |
 | LunarLander_best_luck_draw | [./data/train_process/luck_draw_train_data.pkl](./data/train_process/luck_draw_train_data.pkl) | Average above 200 | [./data/test_process/luck_draw_test_data.pkl](./data/test_process/luck_draw_test_data.pkl) | 92% |
 
+
 ## How to Train the Model
 Make sure your directory is Adaptive Baseline-Zhang Xichen
 
