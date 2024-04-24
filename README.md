@@ -12,5 +12,8 @@ You may start from creating a new conda environment for each folder.
 
 Be careful about the work directory and file path when you run the code!
 
+## Results
+In ``./Results`` folder, we store some training and test results like the list of total rewards. But we cannot guarantee that they can be reproduced even if fixing the seed. So, they are offline and will not be rewritten in any code. For your reference, you can use ``./Results/plot_final_result.ipynb`` to plot them, and the figures are used in final presentation.
+
 ## Demo
-In ``./Demo`` folder, there are the demo gifs and videos we generated for each method. 
+In ``./Demo`` folder, there are the demo gifs and videos we generated from each method, which were used in final presentation.
