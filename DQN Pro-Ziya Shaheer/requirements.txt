@@ -1,6 +1,9 @@
-numpy 
-torch 
-gymnasium 
-tqdm 
+numpy>=1.26.4
+torch>=2.2.2
+gymnasium>=0.26.3
+tqdm
 matplotlib
+pandas
+scipy
+moviepy
 gymnasium[box2d]
