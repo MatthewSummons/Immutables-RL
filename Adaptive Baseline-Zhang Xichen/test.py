@@ -37,9 +37,9 @@ def test(n_episodes=500, name='LunarLander_0.02_0.9_0.999.pth'):
                 ims.append([im])
         total_rewards.append(running_reward)
         final_rewards.append(reward)
+        print("Episode: {}, Reward: {},final_Reward: {}".format(i_episode, running_reward, reward))
         if reward == 100 :
             count += 1
-            print("Episode: {}, Reward: {},final_Reward: {}".format(i_episode, running_reward, reward))
             if render:
                 ani = animation.ArtistAnimation(fig, ims, interval=25, blit=True, repeat_delay=1000)
                 ani.save(f'baseline_{name}_demo_{i_episode}.gif')

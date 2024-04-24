@@ -1,7 +1,14 @@
 # Policy Gradient Methods
+## The Pre-trained Models and data
+We have provided two pre-trained models along with their training and testing data for your reference. The pre-trained models are located in the `Pretrained_model` directory and the data can be found in the `data` directory.
 
+| Model Name | Train Data | Train Target | Test Data | Test Accuracy |
+|------------|------------|--------------|-----------|-------------|
+| LunarLander_fix_random | [./data/train_process/fix_random_train_data.pkl](./data/train_process/fix_random_train_data.pkl) | Average above 200 | [./data/test_process/fix_random_test_data.pkl](./data/test_process/fix_random_test_data.pkl) | 87% |
+| LunarLander_best_luck_draw | [./data/train_process/luck_draw_train_data.pkl](./data/train_process/luck_draw_train_data.pkl) | Average above 200 | [./data/test_process/luck_draw_test_data.pkl](./data/test_process/luck_draw_test_data.pkl) | 92% |
+
+## How to Train the Model
 Make sure your directory is Adaptive Baseline-Zhang Xichen
-
 
 1. create a conda environment and activate it
 
