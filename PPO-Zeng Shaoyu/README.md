@@ -21,26 +21,26 @@ Finally, run jupyter notebook and open the file ``./PPO_all_in_one.ipynb``
 ## Running the code
 Here is the outline of the Jupyter Notebook file, where you can choose to run the part you needed.
 
-1. Import Package
-1. Lunar Lander environment
-1. PPO Agent
+1. ### Import Package
+1. ### Lunar Lander environment
+1. ### PPO Agent
 
     The codes in above sections (1~3) are neccessary. 
-1. Bayesian Optimization
+1. ### Bayesian Optimization
 
     This will not be run by default because it takes a lot of time to optimize. But you can turn it on if you want to test whether it is executable, and there is instruction in the notebook.
 
-1. Train a excellent model
+1. ### Train a excellent model
 
-    Here you can set the goal you want the model to reach and train one, which will be stored in a .pth file. Also the intermediate data will be stored in a .pkl file.
+    Here you can set the goal you want the model to reach and train one, which will be stored in directory ``./trained_model``. Also the intermediate data will be stored in a .pkl file later with the evaluation step.
 
     You can skip this if you only want to evaluate the trained model and see the results.
 
-1. Load and evaluation
+1. ### Load and evaluation
 
     This section will load the trained model, evaluate for 500 episodes and store the corresponding data. In demo subsection you can generate gifs of landing and save them.
 
-1. Reward Shaping
+1. ### Reward Shaping
 
     Here you can test the power of Reward Shaping, basically by comparing the normal process with and without reward shaping.
 
